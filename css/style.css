@@ -20,6 +20,9 @@ input,button,textarea{
 ul,li,ol{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
 body{
     font-size:14px;
     color:#555;
@@ -139,6 +142,16 @@ body{
     font-size:26px;
     color:#fff;
 }
+/*7.16 -- MC*/
+.intro-content a{
+    color: #fff;
+    font-size: 20px;
+}
+.self-intro{
+    float: right;
+    width: 142px;
+    font-size: 18px;
+} /*end*/
 .attribute{
     display: inline-block;
     width:50px;
