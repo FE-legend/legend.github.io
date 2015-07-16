@@ -255,3 +255,49 @@ body{
     height:12%;
     background:#FF3366;
 }
+/**table-wrap**/
+.table-wrap{
+    width:100%;
+    height: 100%;
+    background: url("../images/square-back.jpg") center center no-repeat;
+    background-size: cover;
+    padding-top:20px;
+}
+.square{
+    width:98%;
+    height:98%;
+    background:inherit;
+    background-size: cover;
+    margin:0 auto;
+}
+.square td{
+    width: 150px;
+    height: 150px;
+}
+.square .back-1{
+    background:#072256;
+}
+.square .back-2{
+    background: #21BE92;
+}
+.square .back-3{
+    background: #eb6166;
+}
+.square .back-4{
+    background: #bff074;
+}
+.square .back-5{
+    background: #2aabd2;
+}
+.square .back-6{
+    background: #333333;
+}
+.square .content{
+    background: #e0e0e0;
+    padding:10px;
+}
+.square h2{
+    font-size:24px;
+    color: #e0a293;
+    border-bottom:4px double #e0a293;
+}
