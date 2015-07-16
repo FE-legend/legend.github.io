@@ -1,16 +1,122 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<html>
+<head lang="en">
     <meta charset="UTF-8">
-    <title>Legend.GitHub.io by FE-legend</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link type="text/css" href="css/bootstrap.css" rel="stylesheet" />
-  </head>
-  <body>
+    <title>FE-legend</title>
+    <link href="css/jquery.pagepiling.css"  type="text/css" rel="stylesheet">
+    <link href="css/csshake.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="pagepiling">
 
-    <h1>大菜归来</h1>
-    
-    <script type="text/javascript" src="js/lib/jquery.min.js"></script>
-  </body>
+    <div class="section">
+        <div class="wrap">
+            <div class="title">
+                <span class="shake shake-rotate">FE-legend</span>
+            </div>
+            <div class="intro">
+                there are some instruction
+            </div>
+            <div class="foot"></div>
+
+        </div>
+    </div>
+    <div class="section">
+        <div class="pages">
+            <div class="personal-intro personal-intro-1">
+                <div class="head-sculpture"><img alt="" src="images/1.jpg"></div>
+                <div class="intro-content">
+                    <p><span class="attribute">name</span><span class="value">梦禅</span></p>
+                    <p><span class="attribute">github</span><span class="value"></span></p>
+                    <p><span class="attribute">Me</span><span class="value"></span></p>
+                </div>
+            </div>
+
+            <div class="personal-intro personal-intro-2">
+                <div class="head-sculpture"><img alt="" src="images/2.jpg"></div>
+                <div class="intro-content">
+                    <p><span class="attribute">name</span><span class="value">梦禅</span></p>
+                    <p><span class="attribute">github</span><span class="value"></span></p>
+                    <p><span class="attribute">Me</span><span class="value"></span></p>
+                </div>
+            </div>
+
+            <div class="personal-intro personal-intro-3">
+                <div class="head-sculpture"><img alt="" src="images/3.jpg"></div>
+                <div class="intro-content">
+                    <p><span class="attribute">name</span><span class="value">梦禅</span></p>
+                    <p><span class="attribute">github</span><span class="value"></span></p>
+                    <p><span class="attribute">Me</span><span class="value"></span></p>
+                </div>
+            </div>
+
+            <div class="personal-intro personal-intro-4">
+                <div class="head-sculpture"><img alt="" src="images/4.jpg"></div>
+                <div class="intro-content">
+                    <p><span class="attribute">name</span><span class="value">梦禅</span></p>
+                    <p><span class="attribute">github</span><span class="value"></span></p>
+                    <p><span class="attribute">Me</span><span class="value"></span></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="desc-head"><h2>some word</h2></div>
+        <div class="desc-wrap">
+            <div class="desc-left"><p>some word</p>
+                <div class="pointed"></div>
+            </div>
+            <div class="desc-center"></div>
+            <div class="desc-right"><p>some word</p>
+                <div class="pointed"></div>
+            </div>
+        </div>
+        <div class="desc-foot"></div>
+    </div>
+    <div class="section">
+
+    </div>
+    <div class="section">
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#pagepiling').pagepiling({
+            menu: null,
+            verticalCentered: true,
+            sectionsColor: ['#56ABA7','#56ABA7','#E4EEF9','#E4EEF9','#E4EEF9'],
+            anchors: [],
+            scrollingSpeed: 700,
+            easing: 'swing',
+            loopBottom: false,
+            loopTop: false,
+            css3: true,
+            navigation: {
+                'textColor': '#29B4F0',
+                'bulletsColor': '#29B4F0',
+                'position': 'right',
+                'tooltips': ['', '', '', '']
+            },
+            normalScrollElements: null,
+            normalScrollElementTouchThreshold: 5,
+            touchSensitivity: 5,
+            keyboardScrolling: true,
+            sectionSelector: '.section',
+            animateAnchor: false,
+
+            //events
+            onLeave: function(index, nextIndex, direction){},
+            afterLoad: function(anchorLink, index){},
+            afterRender: function(){}
+        });
+    });
+</script>
+</body>
 </html>
-
