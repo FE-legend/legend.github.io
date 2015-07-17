@@ -3,8 +3,8 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>FE-legend</title>
-    <link href="css/jquery.pagepiling.css"  type="text/css" rel="stylesheet">
-    <link href="css/csshake.css" type="text/css" rel="stylesheet">
+    <link href="css/lib/jquery.pagepiling.css"  type="text/css" rel="stylesheet">
+    <link href="css/lib/csshake.css" type="text/css" rel="stylesheet">
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet" type="text/css">
 </head>
@@ -140,11 +140,13 @@
         </div>
     </div>
     <div class="section">
+
     </div>
 </div>
 
-<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
+<script type="text/javascript" src="js/lib/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/lib/jquery.pagepiling.min.js"></script>
+<script type="text/javascript" src='js/common.js'></script>
 <script>
     $(document).ready(function() {
         $('#pagepiling').pagepiling({
@@ -171,7 +173,11 @@
             animateAnchor: false,
 
             //events
-            onLeave: function(index, nextIndex, direction){},
+            onLeave: function(index, nextIndex, direction){
+                if(nextIndex===5){
+                    console.log(55555555);
+                }
+            },
             afterLoad: function(anchorLink, index){},
             afterRender: function(){}
         });
