@@ -26,7 +26,7 @@ a{
 body{
     font-size:14px;
     color:#555;
-    font-family: "Microsoft YaHei",΢���ź�, sans-serif !important;
+    font-family: "Microsoft YaHei",Î¢ÈíÑÅºÚ, sans-serif !important;
 }
 
 
@@ -63,8 +63,13 @@ body{
     width:100%;
     background:#fff;
     font-size:32px;
-    text-align: center;
     padding:30px;
+}
+.intro>p{
+    text-align: center;
+}
+.intro>p:first-child{
+    font-family: Arial, Helvetica, sans-serif;
 }
 .wrap .foot{
     height:5%;
@@ -212,7 +217,8 @@ body{
     background:#0088bb;
     padding-right:150px;
     padding-top:50px;
-    text-align: right;
+    padding-left: 40px;
+    text-align: left;
     color:#E4EEF9;
 }
 .desc-wrap .desc-right{
@@ -220,10 +226,19 @@ body{
     height: 100%;
     float: left;
     background: inherit;
-    padding-left:30px;
+    padding-left:40px;
     padding-top:50px;
+    padding-right: 50px;
     text-align: left;
     color:#0088bb;
+}
+.desc-right>p{
+    font-family: "微软雅黑";
+    font-size: 21px;
+}
+.desc-right>img{
+    width: 100px;
+    border-radius: 50%;
 }
 .desc-wrap .desc-center{
     width:10px;
@@ -292,6 +307,7 @@ body{
 .square .back-6{
     background: #333333;
 }
+/** by zhangmingxin**/
 .square .content{
     background: #e0e0e0;
     padding:10px;
