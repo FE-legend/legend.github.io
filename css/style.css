@@ -215,7 +215,7 @@ body{
     padding-right:150px;
     padding-top:50px;
     padding-left: 40px;
-    text-align: left;
+    text-align: right;
     color:#E4EEF9;
 }
 .desc-wrap .desc-right{
@@ -257,7 +257,7 @@ body{
     font-size: 23px;
     font-family: Tahoma,Helvetica;
     line-height:1.7;
-    text-aline:center;
+    text-align: right;
     font-weight:bold;
 }
 .desc-right .pointed{
