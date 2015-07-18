@@ -254,7 +254,9 @@ body{
 .desc-left>p{
     font-size: 23px;
     font-family: Tahoma,Helvetica;
-    padding: 60px 35px;
+    line-height:1.7;
+    text-aline:center;
+    font-weight:bold;
 }
 .desc-right .pointed{
     border-left:0;
