@@ -62,9 +62,12 @@ body{
     height: 35%;
     width:100%;
     background:#fff;
+}
+.wrap .intro h1{
     font-size:32px;
     text-align: center;
     padding:30px;
+    line-height:1.7;
 }
 .wrap .foot{
     height:5%;
